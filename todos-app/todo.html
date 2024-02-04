@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of the page  -->
+    <title>Todo</title>
+
+    <!-- linked stylesheet  -->
+    <link rel="stylesheet" href="./todo.css" />
+
+    <!-- linked font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/53765f52cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- header  -->
+    <header>
+      <h1>What can be do?🤐</h1>
+    </header>
+
+    <!-- main-container section  -->
+    <section class="main-container">
+      <div class="flex">
+        <button class="btn1">All</button>
+        <button class="btn2">Active</button>
+        <button class="btn3">Completed</button>
+      </div>
+      <div class="flex">
+        <input id="text" placeholder="My todos✅" type="text" />
+        <button class="btn">Submit</button>
+      </div>
+      <ul class="root"></ul>
+    </section>
+    <!-- JS file in script tag -->
+    <script src="./todo.js"></script>
+  </body>
+</html>
